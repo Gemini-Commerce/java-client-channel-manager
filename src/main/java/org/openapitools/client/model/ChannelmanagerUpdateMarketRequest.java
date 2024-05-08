@@ -20,9 +20,7 @@ import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import org.openapitools.client.model.ChannelmanagerUpdateMarketRequestPayload;
 
 import com.google.gson.Gson;
@@ -52,7 +50,7 @@ import GeminiCommerce_ChannelManager.JSON;
 /**
  * ChannelmanagerUpdateMarketRequest
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-05-08T13:12:00.683338793Z[Etc/UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-05-08T14:06:16.732338528Z[Etc/UTC]")
 public class ChannelmanagerUpdateMarketRequest {
   public static final String SERIALIZED_NAME_TENANT_ID = "tenantId";
   @SerializedName(SERIALIZED_NAME_TENANT_ID)
@@ -68,7 +66,7 @@ public class ChannelmanagerUpdateMarketRequest {
 
   public static final String SERIALIZED_NAME_PAYLOAD_MASK = "payloadMask";
   @SerializedName(SERIALIZED_NAME_PAYLOAD_MASK)
-  private List<String> payloadMask;
+  private String payloadMask;
 
   public ChannelmanagerUpdateMarketRequest() {
   }
@@ -82,7 +80,7 @@ public class ChannelmanagerUpdateMarketRequest {
    * Get tenantId
    * @return tenantId
   **/
-  @javax.annotation.Nullable
+  @javax.annotation.Nonnull
   public String getTenantId() {
     return tenantId;
   }
@@ -101,7 +99,7 @@ public class ChannelmanagerUpdateMarketRequest {
    * Get id
    * @return id
   **/
-  @javax.annotation.Nullable
+  @javax.annotation.Nonnull
   public String getId() {
     return id;
   }
@@ -130,16 +128,8 @@ public class ChannelmanagerUpdateMarketRequest {
   }
 
 
-  public ChannelmanagerUpdateMarketRequest payloadMask(List<String> payloadMask) {
+  public ChannelmanagerUpdateMarketRequest payloadMask(String payloadMask) {
     this.payloadMask = payloadMask;
-    return this;
-  }
-
-  public ChannelmanagerUpdateMarketRequest addPayloadMaskItem(String payloadMaskItem) {
-    if (this.payloadMask == null) {
-      this.payloadMask = new ArrayList<>();
-    }
-    this.payloadMask.add(payloadMaskItem);
     return this;
   }
 
@@ -148,11 +138,11 @@ public class ChannelmanagerUpdateMarketRequest {
    * @return payloadMask
   **/
   @javax.annotation.Nullable
-  public List<String> getPayloadMask() {
+  public String getPayloadMask() {
     return payloadMask;
   }
 
-  public void setPayloadMask(List<String> payloadMask) {
+  public void setPayloadMask(String payloadMask) {
     this.payloadMask = payloadMask;
   }
 
@@ -215,6 +205,8 @@ public class ChannelmanagerUpdateMarketRequest {
 
     // a set of required properties/fields (JSON key names)
     openapiRequiredFields = new HashSet<String>();
+    openapiRequiredFields.add("tenantId");
+    openapiRequiredFields.add("id");
   }
 
  /**
@@ -237,20 +229,26 @@ public class ChannelmanagerUpdateMarketRequest {
           throw new IllegalArgumentException(String.format("The field `%s` in the JSON string is not defined in the `ChannelmanagerUpdateMarketRequest` properties. JSON: %s", entry.getKey(), jsonElement.toString()));
         }
       }
+
+      // check to make sure all required properties/fields are present in the JSON string
+      for (String requiredField : ChannelmanagerUpdateMarketRequest.openapiRequiredFields) {
+        if (jsonElement.getAsJsonObject().get(requiredField) == null) {
+          throw new IllegalArgumentException(String.format("The required field `%s` is not found in the JSON string: %s", requiredField, jsonElement.toString()));
+        }
+      }
         JsonObject jsonObj = jsonElement.getAsJsonObject();
-      if ((jsonObj.get("tenantId") != null && !jsonObj.get("tenantId").isJsonNull()) && !jsonObj.get("tenantId").isJsonPrimitive()) {
+      if (!jsonObj.get("tenantId").isJsonPrimitive()) {
         throw new IllegalArgumentException(String.format("Expected the field `tenantId` to be a primitive type in the JSON string but got `%s`", jsonObj.get("tenantId").toString()));
       }
-      if ((jsonObj.get("id") != null && !jsonObj.get("id").isJsonNull()) && !jsonObj.get("id").isJsonPrimitive()) {
+      if (!jsonObj.get("id").isJsonPrimitive()) {
         throw new IllegalArgumentException(String.format("Expected the field `id` to be a primitive type in the JSON string but got `%s`", jsonObj.get("id").toString()));
       }
       // validate the optional field `payload`
       if (jsonObj.get("payload") != null && !jsonObj.get("payload").isJsonNull()) {
         ChannelmanagerUpdateMarketRequestPayload.validateJsonElement(jsonObj.get("payload"));
       }
-      // ensure the optional json data is an array if present
-      if (jsonObj.get("payloadMask") != null && !jsonObj.get("payloadMask").isJsonNull() && !jsonObj.get("payloadMask").isJsonArray()) {
-        throw new IllegalArgumentException(String.format("Expected the field `payloadMask` to be an array in the JSON string but got `%s`", jsonObj.get("payloadMask").toString()));
+      if ((jsonObj.get("payloadMask") != null && !jsonObj.get("payloadMask").isJsonNull()) && !jsonObj.get("payloadMask").isJsonPrimitive()) {
+        throw new IllegalArgumentException(String.format("Expected the field `payloadMask` to be a primitive type in the JSON string but got `%s`", jsonObj.get("payloadMask").toString()));
       }
   }
 

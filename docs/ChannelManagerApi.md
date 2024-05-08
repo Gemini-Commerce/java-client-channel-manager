@@ -45,12 +45,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://channel.api.gogemini.io");
     
-    // Configure API key authorization: standardAuthorization
-    ApiKeyAuth standardAuthorization = (ApiKeyAuth) defaultClient.getAuthentication("standardAuthorization");
-    standardAuthorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //standardAuthorization.setApiKeyPrefix("Token");
-
     ChannelManagerApi apiInstance = new ChannelManagerApi(defaultClient);
     ChannelmanagerCreateAssociationRequest body = new ChannelmanagerCreateAssociationRequest(); // ChannelmanagerCreateAssociationRequest | 
     try {
@@ -79,7 +73,7 @@ public class Example {
 
 ### Authorization
 
-[standardAuthorization](../README.md#standardAuthorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -115,12 +109,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://channel.api.gogemini.io");
     
-    // Configure API key authorization: standardAuthorization
-    ApiKeyAuth standardAuthorization = (ApiKeyAuth) defaultClient.getAuthentication("standardAuthorization");
-    standardAuthorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //standardAuthorization.setApiKeyPrefix("Token");
-
     ChannelManagerApi apiInstance = new ChannelManagerApi(defaultClient);
     ChannelmanagerCreateChannelRequest body = new ChannelmanagerCreateChannelRequest(); // ChannelmanagerCreateChannelRequest | 
     try {
@@ -149,7 +137,7 @@ public class Example {
 
 ### Authorization
 
-[standardAuthorization](../README.md#standardAuthorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -185,12 +173,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://channel.api.gogemini.io");
     
-    // Configure API key authorization: standardAuthorization
-    ApiKeyAuth standardAuthorization = (ApiKeyAuth) defaultClient.getAuthentication("standardAuthorization");
-    standardAuthorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //standardAuthorization.setApiKeyPrefix("Token");
-
     ChannelManagerApi apiInstance = new ChannelManagerApi(defaultClient);
     ChannelmanagerCreateMarketRequest body = new ChannelmanagerCreateMarketRequest(); // ChannelmanagerCreateMarketRequest | 
     try {
@@ -219,7 +201,7 @@ public class Example {
 
 ### Authorization
 
-[standardAuthorization](../README.md#standardAuthorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -255,12 +237,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://channel.api.gogemini.io");
     
-    // Configure API key authorization: standardAuthorization
-    ApiKeyAuth standardAuthorization = (ApiKeyAuth) defaultClient.getAuthentication("standardAuthorization");
-    standardAuthorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //standardAuthorization.setApiKeyPrefix("Token");
-
     ChannelManagerApi apiInstance = new ChannelManagerApi(defaultClient);
     ChannelmanagerDeleteAssociationRequest body = new ChannelmanagerDeleteAssociationRequest(); // ChannelmanagerDeleteAssociationRequest | 
     try {
@@ -289,7 +265,7 @@ public class Example {
 
 ### Authorization
 
-[standardAuthorization](../README.md#standardAuthorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -325,12 +301,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://channel.api.gogemini.io");
     
-    // Configure API key authorization: standardAuthorization
-    ApiKeyAuth standardAuthorization = (ApiKeyAuth) defaultClient.getAuthentication("standardAuthorization");
-    standardAuthorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //standardAuthorization.setApiKeyPrefix("Token");
-
     ChannelManagerApi apiInstance = new ChannelManagerApi(defaultClient);
     ChannelmanagerDeleteChannelRequest body = new ChannelmanagerDeleteChannelRequest(); // ChannelmanagerDeleteChannelRequest | 
     try {
@@ -359,7 +329,7 @@ public class Example {
 
 ### Authorization
 
-[standardAuthorization](../README.md#standardAuthorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -395,12 +365,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://channel.api.gogemini.io");
     
-    // Configure API key authorization: standardAuthorization
-    ApiKeyAuth standardAuthorization = (ApiKeyAuth) defaultClient.getAuthentication("standardAuthorization");
-    standardAuthorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //standardAuthorization.setApiKeyPrefix("Token");
-
     ChannelManagerApi apiInstance = new ChannelManagerApi(defaultClient);
     ChannelmanagerDeleteMarketRequest body = new ChannelmanagerDeleteMarketRequest(); // ChannelmanagerDeleteMarketRequest | 
     try {
@@ -429,7 +393,7 @@ public class Example {
 
 ### Authorization
 
-[standardAuthorization](../README.md#standardAuthorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -465,12 +429,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://channel.api.gogemini.io");
     
-    // Configure API key authorization: standardAuthorization
-    ApiKeyAuth standardAuthorization = (ApiKeyAuth) defaultClient.getAuthentication("standardAuthorization");
-    standardAuthorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //standardAuthorization.setApiKeyPrefix("Token");
-
     ChannelManagerApi apiInstance = new ChannelManagerApi(defaultClient);
     ChannelmanagerGetChannelRequest body = new ChannelmanagerGetChannelRequest(); // ChannelmanagerGetChannelRequest | 
     try {
@@ -499,7 +457,7 @@ public class Example {
 
 ### Authorization
 
-[standardAuthorization](../README.md#standardAuthorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -535,12 +493,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://channel.api.gogemini.io");
     
-    // Configure API key authorization: standardAuthorization
-    ApiKeyAuth standardAuthorization = (ApiKeyAuth) defaultClient.getAuthentication("standardAuthorization");
-    standardAuthorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //standardAuthorization.setApiKeyPrefix("Token");
-
     ChannelManagerApi apiInstance = new ChannelManagerApi(defaultClient);
     ChannelmanagerGetChannelWithAssociationsRequest body = new ChannelmanagerGetChannelWithAssociationsRequest(); // ChannelmanagerGetChannelWithAssociationsRequest | 
     try {
@@ -569,7 +521,7 @@ public class Example {
 
 ### Authorization
 
-[standardAuthorization](../README.md#standardAuthorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -605,12 +557,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://channel.api.gogemini.io");
     
-    // Configure API key authorization: standardAuthorization
-    ApiKeyAuth standardAuthorization = (ApiKeyAuth) defaultClient.getAuthentication("standardAuthorization");
-    standardAuthorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //standardAuthorization.setApiKeyPrefix("Token");
-
     ChannelManagerApi apiInstance = new ChannelManagerApi(defaultClient);
     ChannelmanagerGetMarketRequest body = new ChannelmanagerGetMarketRequest(); // ChannelmanagerGetMarketRequest | 
     try {
@@ -639,7 +585,7 @@ public class Example {
 
 ### Authorization
 
-[standardAuthorization](../README.md#standardAuthorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -675,12 +621,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://channel.api.gogemini.io");
     
-    // Configure API key authorization: standardAuthorization
-    ApiKeyAuth standardAuthorization = (ApiKeyAuth) defaultClient.getAuthentication("standardAuthorization");
-    standardAuthorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //standardAuthorization.setApiKeyPrefix("Token");
-
     ChannelManagerApi apiInstance = new ChannelManagerApi(defaultClient);
     ChannelmanagerGetMarketWithAssociationsRequest body = new ChannelmanagerGetMarketWithAssociationsRequest(); // ChannelmanagerGetMarketWithAssociationsRequest | 
     try {
@@ -709,7 +649,7 @@ public class Example {
 
 ### Authorization
 
-[standardAuthorization](../README.md#standardAuthorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -745,12 +685,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://channel.api.gogemini.io");
     
-    // Configure API key authorization: standardAuthorization
-    ApiKeyAuth standardAuthorization = (ApiKeyAuth) defaultClient.getAuthentication("standardAuthorization");
-    standardAuthorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //standardAuthorization.setApiKeyPrefix("Token");
-
     ChannelManagerApi apiInstance = new ChannelManagerApi(defaultClient);
     ChannelmanagerListChannelsRequest body = new ChannelmanagerListChannelsRequest(); // ChannelmanagerListChannelsRequest | 
     try {
@@ -779,7 +713,7 @@ public class Example {
 
 ### Authorization
 
-[standardAuthorization](../README.md#standardAuthorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -815,12 +749,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://channel.api.gogemini.io");
     
-    // Configure API key authorization: standardAuthorization
-    ApiKeyAuth standardAuthorization = (ApiKeyAuth) defaultClient.getAuthentication("standardAuthorization");
-    standardAuthorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //standardAuthorization.setApiKeyPrefix("Token");
-
     ChannelManagerApi apiInstance = new ChannelManagerApi(defaultClient);
     ChannelmanagerListChannelsWithAssociationsRequest body = new ChannelmanagerListChannelsWithAssociationsRequest(); // ChannelmanagerListChannelsWithAssociationsRequest | 
     try {
@@ -849,7 +777,7 @@ public class Example {
 
 ### Authorization
 
-[standardAuthorization](../README.md#standardAuthorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -885,12 +813,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://channel.api.gogemini.io");
     
-    // Configure API key authorization: standardAuthorization
-    ApiKeyAuth standardAuthorization = (ApiKeyAuth) defaultClient.getAuthentication("standardAuthorization");
-    standardAuthorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //standardAuthorization.setApiKeyPrefix("Token");
-
     ChannelManagerApi apiInstance = new ChannelManagerApi(defaultClient);
     ChannelmanagerListMarketsRequest body = new ChannelmanagerListMarketsRequest(); // ChannelmanagerListMarketsRequest | 
     try {
@@ -919,7 +841,7 @@ public class Example {
 
 ### Authorization
 
-[standardAuthorization](../README.md#standardAuthorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -955,12 +877,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://channel.api.gogemini.io");
     
-    // Configure API key authorization: standardAuthorization
-    ApiKeyAuth standardAuthorization = (ApiKeyAuth) defaultClient.getAuthentication("standardAuthorization");
-    standardAuthorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //standardAuthorization.setApiKeyPrefix("Token");
-
     ChannelManagerApi apiInstance = new ChannelManagerApi(defaultClient);
     ChannelmanagerListMarketsWithAssociationsRequest body = new ChannelmanagerListMarketsWithAssociationsRequest(); // ChannelmanagerListMarketsWithAssociationsRequest | 
     try {
@@ -989,7 +905,7 @@ public class Example {
 
 ### Authorization
 
-[standardAuthorization](../README.md#standardAuthorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -1025,12 +941,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://channel.api.gogemini.io");
     
-    // Configure API key authorization: standardAuthorization
-    ApiKeyAuth standardAuthorization = (ApiKeyAuth) defaultClient.getAuthentication("standardAuthorization");
-    standardAuthorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //standardAuthorization.setApiKeyPrefix("Token");
-
     ChannelManagerApi apiInstance = new ChannelManagerApi(defaultClient);
     ChannelmanagerUpdateChannelRequest body = new ChannelmanagerUpdateChannelRequest(); // ChannelmanagerUpdateChannelRequest | 
     try {
@@ -1059,7 +969,7 @@ public class Example {
 
 ### Authorization
 
-[standardAuthorization](../README.md#standardAuthorization)
+No authorization required
 
 ### HTTP request headers
 
@@ -1095,12 +1005,6 @@ public class Example {
     ApiClient defaultClient = Configuration.getDefaultApiClient();
     defaultClient.setBasePath("https://channel.api.gogemini.io");
     
-    // Configure API key authorization: standardAuthorization
-    ApiKeyAuth standardAuthorization = (ApiKeyAuth) defaultClient.getAuthentication("standardAuthorization");
-    standardAuthorization.setApiKey("YOUR API KEY");
-    // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-    //standardAuthorization.setApiKeyPrefix("Token");
-
     ChannelManagerApi apiInstance = new ChannelManagerApi(defaultClient);
     ChannelmanagerUpdateMarketRequest body = new ChannelmanagerUpdateMarketRequest(); // ChannelmanagerUpdateMarketRequest | 
     try {
@@ -1129,7 +1033,7 @@ public class Example {
 
 ### Authorization
 
-[standardAuthorization](../README.md#standardAuthorization)
+No authorization required
 
 ### HTTP request headers
 

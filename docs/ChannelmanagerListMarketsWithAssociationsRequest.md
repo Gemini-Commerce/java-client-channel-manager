@@ -6,7 +6,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**tenantId**| **String** |   | [optional]
+**tenantId**| **String** |   |
 **pageSize**| **Long** | The number of items to return per page. If not specified, it will returns all items.  | [optional]
 **pageToken**| **String** |   | [optional]
 

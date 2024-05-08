@@ -6,9 +6,9 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**tenantId**| **String** |   | [optional]
-**channelGrn**| **String** |   | [optional]
-**marketGrn**| **String** |   | [optional]
+**tenantId**| **String** |   |
+**channelGrn**| **String** |   |
+**marketGrn**| **String** |   |
 
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

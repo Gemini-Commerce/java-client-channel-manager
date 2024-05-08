@@ -52,7 +52,7 @@ import GeminiCommerce_ChannelManager.JSON;
 /**
  * RpcStatus
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-05-08T13:12:00.683338793Z[Etc/UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-05-08T14:06:16.732338528Z[Etc/UTC]")
 public class RpcStatus {
   public static final String SERIALIZED_NAME_CODE = "code";
   @SerializedName(SERIALIZED_NAME_CODE)
@@ -215,19 +215,9 @@ public class RpcStatus {
       if ((jsonObj.get("message") != null && !jsonObj.get("message").isJsonNull()) && !jsonObj.get("message").isJsonPrimitive()) {
         throw new IllegalArgumentException(String.format("Expected the field `message` to be a primitive type in the JSON string but got `%s`", jsonObj.get("message").toString()));
       }
-      if (jsonObj.get("details") != null && !jsonObj.get("details").isJsonNull()) {
-        JsonArray jsonArraydetails = jsonObj.getAsJsonArray("details");
-        if (jsonArraydetails != null) {
-          // ensure the json data is an array
-          if (!jsonObj.get("details").isJsonArray()) {
-            throw new IllegalArgumentException(String.format("Expected the field `details` to be an array in the JSON string but got `%s`", jsonObj.get("details").toString()));
-          }
-
-          // validate the optional field `details` (array)
-          for (int i = 0; i < jsonArraydetails.size(); i++) {
-            ProtobufAny.validateJsonElement(jsonArraydetails.get(i));
-          };
-        }
+      // ensure the optional json data is an array if present
+      if (jsonObj.get("details") != null && !jsonObj.get("details").isJsonNull() && !jsonObj.get("details").isJsonArray()) {
+        throw new IllegalArgumentException(String.format("Expected the field `details` to be an array in the JSON string but got `%s`", jsonObj.get("details").toString()));
       }
   }
 

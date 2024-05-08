@@ -45,12 +45,4 @@ public class ProtobufAnyTest {
         // TODO: test atType
     }
 
-    /**
-     * Test the property 'value'
-     */
-    @Test
-    public void valueTest() {
-        // TODO: test value
-    }
-
 }
