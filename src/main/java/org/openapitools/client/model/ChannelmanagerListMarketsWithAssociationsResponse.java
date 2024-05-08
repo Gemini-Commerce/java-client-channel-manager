@@ -52,7 +52,7 @@ import GeminiCommerce_ChannelManager.JSON;
 /**
  * ChannelmanagerListMarketsWithAssociationsResponse
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-05-08T14:28:19.142747222Z[Etc/UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-05-08T14:50:02.613463090Z[Etc/UTC]")
 public class ChannelmanagerListMarketsWithAssociationsResponse {
   public static final String SERIALIZED_NAME_MARKETS = "markets";
   @SerializedName(SERIALIZED_NAME_MARKETS)

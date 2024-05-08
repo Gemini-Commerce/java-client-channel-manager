@@ -49,7 +49,7 @@ import GeminiCommerce_ChannelManager.JSON;
 /**
  * ChannelmanagerDeleteChannelRequest
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-05-08T14:28:19.142747222Z[Etc/UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-05-08T14:50:02.613463090Z[Etc/UTC]")
 public class ChannelmanagerDeleteChannelRequest {
   public static final String SERIALIZED_NAME_TENANT_ID = "tenantId";
   @SerializedName(SERIALIZED_NAME_TENANT_ID)
