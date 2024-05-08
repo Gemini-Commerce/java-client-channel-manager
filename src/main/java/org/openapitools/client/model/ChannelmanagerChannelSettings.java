@@ -49,7 +49,7 @@ import GeminiCommerce_ChannelManager.JSON;
 /**
  * ChannelmanagerChannelSettings
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-05-08T14:06:16.732338528Z[Etc/UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-05-08T14:16:25.832818665Z[Etc/UTC]")
 public class ChannelmanagerChannelSettings {
   public static final String SERIALIZED_NAME_HIDE_OOS_PRODUCTS = "hideOosProducts";
   @SerializedName(SERIALIZED_NAME_HIDE_OOS_PRODUCTS)

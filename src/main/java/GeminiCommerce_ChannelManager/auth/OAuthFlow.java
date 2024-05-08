@@ -16,7 +16,7 @@ package GeminiCommerce_ChannelManager.auth;
 /**
  * OAuth flows that are supported by this client
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-05-08T14:06:16.732338528Z[Etc/UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-05-08T14:16:25.832818665Z[Etc/UTC]")
 public enum OAuthFlow {
     ACCESS_CODE, //called authorizationCode  in OpenAPI 3.0
     IMPLICIT,
