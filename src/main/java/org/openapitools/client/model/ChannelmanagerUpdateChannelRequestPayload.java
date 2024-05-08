@@ -53,7 +53,7 @@ import GeminiCommerce_ChannelManager.JSON;
 /**
  * ChannelmanagerUpdateChannelRequestPayload
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-05-08T14:16:25.832818665Z[Etc/UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-05-08T14:28:19.142747222Z[Etc/UTC]")
 public class ChannelmanagerUpdateChannelRequestPayload {
   public static final String SERIALIZED_NAME_IMAGE = "image";
   @SerializedName(SERIALIZED_NAME_IMAGE)
