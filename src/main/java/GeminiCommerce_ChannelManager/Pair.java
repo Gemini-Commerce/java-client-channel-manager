@@ -13,7 +13,7 @@
 
 package GeminiCommerce_ChannelManager;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-05-08T14:50:02.613463090Z[Etc/UTC]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2024-05-08T15:00:20.871956445Z[Etc/UTC]")
 public class Pair {
     private String name = "";
     private String value = "";

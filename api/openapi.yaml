@@ -10,6 +10,8 @@ info:
   version: 1.0.0
 servers:
 - url: https://channel.api.gogemini.io/
+security:
+- Authorization: []
 tags:
 - name: ChannelManager
 paths:
@@ -67,8 +69,6 @@ paths:
               schema:
                 $ref: '#/components/schemas/rpcStatus'
           description: An unexpected error response.
-      security:
-      - standardAuthorization: []
       summary: CreateChannel
       tags:
       - ChannelManager
@@ -2198,6 +2198,10 @@ components:
           type: array
       type: object
   securitySchemes:
+    Authorization:
+      in: header
+      name: Authorization
+      type: apiKey
     standardAuthorization:
       flows:
         implicit:
